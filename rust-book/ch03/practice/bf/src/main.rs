@@ -39,7 +39,7 @@ fn fibonacci_sequential(n: u128) {
     // cheesing 0 :P
     print!("0 ");
 
-    for number in (0..n-1) {
+    for number in (1..n) {
         print!("{} ", current);
         temp = current;
         current = previous + current;
